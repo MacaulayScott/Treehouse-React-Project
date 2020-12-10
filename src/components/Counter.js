@@ -1,13 +1,13 @@
 import React from 'react';
 import './counter.css';
 
-const Counter = () => {
+const Counter = (props) => {
     return (  
     
     <div className="counter">
 
     <button className="counter-action decrement"> - </button>
-    <span className="counter-score">35</span>
+    <span className="counter-score">{ props.score }</span>
     <button className=" counter-action increment"> + </button>
   
   </div>

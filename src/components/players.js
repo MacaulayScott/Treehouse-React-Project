@@ -1,14 +1,10 @@
 import React from 'react'
 import './players.css'
-import Counter from './Counter'
 
-const Players = () => {
+const Players = (props) => {
     return (
       <div className="player">
-        <span className="player-name">
-          macaulay
-        </span> <br />
-        <Counter />
+        <span className="player-name">{props.name}</span> <br />
       </div>
 
       
