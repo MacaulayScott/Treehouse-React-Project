@@ -1,0 +1,14 @@
+
+.player {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+};
+
+.player-name {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+};
+
