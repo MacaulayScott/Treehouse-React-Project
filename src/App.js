@@ -1,17 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './header'
+import Players from './components/players'
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         my first react component
-         </p>
-      </header>
-    </div>
-  );
+  return <div>
+      <Header totalplayers= {1} />
+
+      <Players />
+  </div>
 }
 
-export default App;
+
+
+
+export default App
